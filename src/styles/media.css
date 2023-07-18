@@ -1,0 +1,132 @@
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 993px;
+    }
+    .main__our {
+        margin-right: 130px;
+        font-size: 17px;
+    }
+    .main__specialize {
+        margin-right: 100px;
+        width: 250px;
+    }
+    .content__show__value {
+        font-size: 64px;
+    }
+    .content__show__text {
+        width: 330px;
+    }
+    .content__item__value {
+        width: 150px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .dn {
+        display: flex;
+    }
+
+    .container {
+        width: 768px;
+    }
+    .main__header img {
+        display: none;
+    }
+    .main__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .main__our {
+        font-size: 20px;
+        text-align: center;
+        margin-right: 0;
+    }
+    .main__specialize {
+        margin-right: 0;
+        font-size: 18px;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .main__wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content__show {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .content__show__value {
+        font-size: 48px;
+    }
+
+    .content__list {
+        display: none;
+    }
+
+    .content__item__text {
+        width: 400px;
+        margin-top: 20px;
+    }
+
+    .content__show__text {
+        width: 500px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .main__header {
+        padding-top: 10px;
+        display: block;
+        width: 100%;
+    }
+
+    .main__our {
+        text-align: left;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .main__specialize {
+        width: 100%;
+    }
+
+    .content__show {
+        width: 100%;
+    }
+
+    .content__show__text {
+        width: 95%;
+    }
+    .progress {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+    .content__item__text {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .content__show__text {
+        width: 100%;
+        text-align: center;
+    }
+    .main__our {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .main__specialize {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 320px) {
+}

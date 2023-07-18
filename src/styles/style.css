@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url(main.css);
+@import url(media.css);
+:root {
+    --main-color: orange;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.active__divider {
+    background-color: var(--main-color);
+}
+
+.active__text {
+    color: var(--main-color);
+}
